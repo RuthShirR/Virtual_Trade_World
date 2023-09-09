@@ -26,8 +26,8 @@ Introducing "Virtual Trade World" - a cutting-edge cryptocurrency tracker. Not o
 * CoinGecko API: Your reliable source for all things cryptocurrency.
 * Web Storage (Local Storage): A safe place for your cherished coins.
 
-* # 📝 Personal Note
-My name is Ruth Shir Rosenblum, a software and application development student at John Bryce. As a dedicated individual with a penchant for creativity, I strive for excellence in all my projects. This project showcases my ability to integrate API data dynamically into a user-centric interface.
+ # 📝 Personal Note📝 Personal Note:
+Greetings! I'm Ruth Shir Rosenblum, a budding software and application development student at John Bryce. "Virtual Trade World" is the second major project I've undertaken in my studies. As with my other projects, I'm particularly proud of my use of jQuery in this application, which played a pivotal role in creating a dynamic and responsive user experience. My commitment to creativity and precision is evident in every line of code I craft. Each project offers a unique learning experience, and I cherish the growth and insights they bring.
 
 # Feedback 💌:
 Your insights are gold! If you have feedback, suggestions, or wish to contribute, please don't hesitate. Feel free to raise an issue or float a pull request!
