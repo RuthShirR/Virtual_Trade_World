@@ -1,0 +1,253 @@
+html , body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Segoe UI Emoji;
+    font-size: medium;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(../images/wallpaper4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+header {
+    width: 100%;
+    border-bottom: 3px solid #ba8a40;
+}
+
+#logo {
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 106px;
+    display: inline-block;
+}
+
+#navbar {
+    width: 80%;
+    margin: auto;
+}
+.searchBar {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    
+  }
+  
+  #searchInput {
+    margin-right: 10px;
+  }
+  
+  #searchButton {
+    background-color: #ba8a40;
+    color: black;
+    border: 1px solid black;
+    margin-left: auto;
+  }
+
+.parallax {
+    /* The image used */
+    background-image: url(../images/parallax.jpg);
+  
+    /* Set a specific height */
+    height: 700px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-content {
+    width: 75%;
+    margin: auto;
+}
+.parallax-content > h1 {
+    padding-top: 50px;
+    color: #ba8a40;
+    text-shadow: 1px 5px 10px #1a1a1a;
+}
+
+.parallax-content > h5 {
+    color: #1a1a1a;
+}
+
+.second-parallax {
+    /* The image used */
+    background-image: url(../images/second-parallax.png);
+  
+    /* Set a specific height */
+    height: 600px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    border-bottom: 3px solid #ba8a40;
+}
+
+.second-parallax-content {
+    margin: 100px auto;
+    width: 50%;
+    display: inline-block;
+}
+
+.second-parallax-logo {
+    width: 200px;
+    height: 200px;
+}
+.second-parallax-content > h3 {
+    color: #ba8a40;
+}
+
+main {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.card-design {
+    width: 20rem;
+    margin: 10px auto;
+    height: 265px;
+}
+
+.more-info-button {
+    background-color: #ba8a40;
+    color: black;
+    position: absolute;
+    bottom: 5px;
+    margin-top: 20px;
+}
+
+.toggle-button {
+    position: absolute;
+    width: 13%;
+    height: 8%;
+    right: 4px;
+    top: 4px;
+    appearance: none;
+    -webkit-appearance: none;
+    background: #c6c6c6;
+    border-radius: 100px;
+    outline: none;
+    box-shadow: inset 0 0 5px rgba(0,0,0,.2);
+    transition: .5s;
+}
+.toggle-button:checked {
+    background: #2e2e2e;
+}
+.toggle-button::before {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #ba8a40;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+    transform: scale(1.1);
+    transition: .5s;
+}
+.toggle-button:checked::before {
+    left: 50%;
+}
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+    background-color: #1a1a1a;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ba8a40;
+    width: 78.5%;
+}
+
+.modal-content > p {
+    text-align: center;
+    color: white;
+}
+
+.close {
+    color: #aaaaaa;
+    background-color: #000;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    width: 3%;
+    border-radius: 50%;
+    border: none;
+}
+
+.close:hover,
+.close:focus {
+    color: #ba8a40;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.noResults {
+    margin: 50px auto;
+    border: 1px solid #ba8a40;
+    background-color: white;
+    width: 30%;
+    text-align: center;
+    border-radius: 8px;
+}
+
+#scrollTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+#chartContainer{
+    width: 100%;
+    background-image: url(../images/second-parallax.png);
+    margin-top: 100px;
+    text-align: center;
+    height: 730px;
+}
+
+#about {
+    width: 100%;
+    background-image: url(../images/second-parallax.png);
+    margin-top: 100px;
+    text-align: center;
+    height: 730px;
+}
+
+#about > h3 {
+    color: #ba8a40;
+    padding-top: 50px;
+}
+#about > p {
+    padding-top: 10px;
+}
+
+footer {
+    width: 100%;
+    background-color: #2e2e2e;
+    color: white;
+    text-align: center;
+    height: 50px;
+    padding: 10px;
+}
